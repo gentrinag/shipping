@@ -7,6 +7,10 @@
  */
 namespace App\Repositories\DataSource;
 
+/**
+ * Interface DataSourceRepository
+ * @package App\Repositories\DataSource
+ */
 interface DataSourceRepository
 {
     public function getDateByTrackingCode($code);

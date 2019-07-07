@@ -7,8 +7,6 @@
  */
 
 namespace App\Repositories\DataSource;
-
-
 use App\Shipping;
 
 class MysqlSourceRepository implements DataSourceRepository

@@ -14,6 +14,7 @@ class ShippingsController extends Controller
     private $repository;
 
     /**
+     * Bind repository
      * ShippingsController constructor.
      * @param DataSourceRepository $repository
      */
@@ -23,6 +24,7 @@ class ShippingsController extends Controller
     }
 
     /**
+     * Fetch data from DataSource
      * @param $code
      * @return JsonResponse
      */
